@@ -1,0 +1,9 @@
+# This is the original non-federated GraphQL API
+type Query {
+    users: [User]
+}
+
+type User {
+    id: ID!
+    name: String
+}
