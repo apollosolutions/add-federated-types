@@ -1,3 +1,4 @@
+export const federationSpec = `
 scalar _Any
 scalar _FieldSet
 
@@ -17,3 +18,4 @@ directive @requires(fields: _FieldSet!) on FIELD_DEFINITION
 directive @provides(fields: _FieldSet!) on FIELD_DEFINITION
 directive @key(fields: _FieldSet!) repeatable on OBJECT | INTERFACE
 directive @extends on OBJECT | INTERFACE
+`;
