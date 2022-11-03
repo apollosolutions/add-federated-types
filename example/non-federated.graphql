@@ -6,4 +6,11 @@ type Query {
 type User {
     id: ID!
     name: String
+    address: Address
+}
+
+type Address {
+    street: String
+    city: String
+    country: String
 }
