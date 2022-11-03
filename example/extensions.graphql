@@ -1,2 +1,6 @@
-# This is not another subgraph schema, but a modification for how you wished the non-federated graph looked
+# This is not another subgraph schema, but a modification for how you want
+# the non-federated graph to be updated. It is not valid GraphQL on its own.
+
 type User @key(fields: "id")
+
+type Address @shareable
